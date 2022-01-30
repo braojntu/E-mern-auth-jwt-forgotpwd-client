@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.7;
+  /* background: #2f3239;
+  color: #333; */
+}
+
+.form-group,
+.form-group label,
+.form-group input {
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+.form-group label {
+  font-size: 0.9rem;
+}
+
+.form-group input {
+  padding: 10px 20px;
+  border: none;
+  border-bottom: 3px solid transparent;
+  background-color: #eee;
+  outline-width: 0;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+.form-group input:focus {
+  border-bottom: 3px solid #3360ff;
+}
+
+.btn {
+  padding: 10px 20px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 1rem;
+  border: none;
+}
+
+.btn:hover {
+  opacity: 0.8;
+  background-color: #426782;
+}
+
+.btn-primary {
+  background-color: blueviolet;
+  color: #fff;
+  border-radius: 30px;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.error-message {
+  width: 100%;
+  display: inline-block;
+  padding: 5px;
+  background: red;
+  color: #fff;
+  text-align: center;
+  margin: 0.5rem 0;
+}
+
+.success-message {
+  width: 100%;
+  display: inline-block;
+  padding: 5px;
+  background: green;
+  color: #fff;
+  text-align: center;
+  margin: 0.5rem 0;
+}
+
+/*For responsive layout*/
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+}
+
+.flex-item-left {
+  flex: 65%;
+}
+
+.flex-item-right {
+  flex: 35%;
+}
+
+/*Make one column-layout instead of a two-column layout*/
+@media (max-width: 800px) {
+  .flex-item-right,
+  .flex-item-left {
+    flex: 100%;
+  }
+}
