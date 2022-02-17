@@ -37,7 +37,6 @@ const ForgotPassword = () => {
   return (
     <div className="forgotpassword-screen flex-container">
       <div className="forgotpassword-screen__form-left flex-item-left">
-        MERN Authentication
       </div>
       <form
         onSubmit={forgotPasswordHandler}

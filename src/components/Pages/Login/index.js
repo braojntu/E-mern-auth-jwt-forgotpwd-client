@@ -45,7 +45,6 @@ const Login = ({history}) => {
   return (
     <div className="login-screen flex-container">
       <div className="login-screen__form-left flex-item-left">
-        Mern Authentication
       </div>
       <form
         onSubmit={loginHandler}

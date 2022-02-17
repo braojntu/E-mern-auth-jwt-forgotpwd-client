@@ -59,7 +59,7 @@ const Register = ({ history }) => {
 
   return (
     <div className="register-screen flex-container">
-      <div className="register-screen__form-left flex-item-left">MERN Authentication</div>
+      <div className="register-screen__form-left flex-item-left"></div>
       <form
         onSubmit={registerHandler}
         className="register-screen__form-right flex-item-right"
